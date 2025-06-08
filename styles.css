@@ -1,35 +1,100 @@
 
-         .header {
+        .logo-1 {
+            width: 100px;
+            height: 70px;
+        }
+        .header {
             background-color: rgb(235, 199, 254);
             color:black;
-            height: 75px;
+            height: 70px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 20px;
+            margin-top: 0;
+            padding-top: 0;
         }
-        .logo {
-            width: 100px;
-            
+        .left-section {
+            align-items: left;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
         }
+           
         .tagline {
             justify-content: center;
+            color: rgb(76, 7, 106);
         }
         .right-section {
             align-items: left;
             color: black;
             display: flex;
             justify-content: space-between;
+            padding: 50px;
+        }
+        .each {
+            font-size: 26px;
+            padding-left: 20px;
+        }
+        .each:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .text-on-image {
+            text-align: center;
+            color: rgb(130, 28, 174);
+            font-size: 70px;
+        }
+
+        .hero-section {
+            background-image: url("images/man on laptop.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 650px;
+        }
+        #f-button {
+            background-color: rgb(238, 145, 185);
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+
+
+        }
+
+        .headline {
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+            text-align: center;
+            color:  rgb(130, 28, 174);
+            font-size: 25px;
+
+        }
+        .text1 {
+            line-height: 1.6;
+        }
+        .logo-image {
+            width: 200px; 
+            border-radius: 80px;
+        }
+
+        .hero {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
         }
        
         .form-row {
         display: flex;
         gap: 1rem;
         }
-        .send-message {
-            text-align: center;
-            margin-top: 20px;
-        }
+        
 
         .carousel {
             display: flex;
@@ -44,13 +109,15 @@
             padding: 20px;
             border-radius: 20px;
             max-width: 700px;
+            justify-content: center;
 
         }
         .button {
             background-color: rgb(238, 145, 185);
             border-radius: 10px;
             padding: 10px;
-            align-items: center;
+            margin-bottom: 50px;
+            
         }
 
         .statistics {
@@ -75,6 +142,7 @@
         }
 
         .bow {
+            margin-top: 50px;
             font-size: 34px;
             text-align: center;
             background-color: rgb(249 239,255); 
@@ -88,6 +156,8 @@
         .title {
            text-align: center;
            font-size: 32px;
+           margin-bottom: 0;
+           padding-top: 70px;
         }
 
         .boxes {
